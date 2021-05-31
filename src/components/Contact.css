@@ -1,0 +1,158 @@
+.contact {
+	position: relative;
+	background-color: #443d5b;
+}
+
+.contact__title {
+	display: inline;
+	padding: 10px 20px 15px;
+	color: #443d5b;
+	background-color: white;
+	position: absolute;
+	top: 70px;
+	left: 16px;
+	z-index: 100;
+}
+
+.contact__body {
+	color: white;
+	margin: 0px 50px;
+	padding: 150px 0px 0px;
+}
+
+.contact__body h2 {
+	font-size: 2.2rem;
+}
+
+.contact__contacts,
+.contact__centerP {
+	margin: 20px 0px;
+}
+
+.contact__contacts p {
+	display: flex;
+	align-items: center;
+	font-size: 1.2rem;
+}
+
+.underlined {
+	border-bottom: 1px solid;
+}
+
+.contact__withIcon {
+	margin-left: 10px;
+}
+
+.contact__withoutIcon {
+	margin-left: 34px;
+}
+
+.contact__socialIcons {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 20px 0px;
+	width: 37vw;
+}
+
+.contact__secondColumn > h3 {
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+}
+
+.contact__secondColumn > p {
+	margin: 25px 0px;
+}
+
+.contact__textField {
+	background-color: #302a40;
+	margin-bottom: 10px !important;
+	width: 72vw;
+}
+
+.contact__textField > label,
+.contact__textField textarea {
+	color: gray;
+}
+
+.contact__textField > div {
+	border-radius: 0px;
+}
+
+.contact__button {
+	border-radius: 0px !important;
+	float: right;
+	font-weight: bold !important;
+}
+
+.contact__map {
+	border: none;
+	height: 400px;
+	width: 100vw;
+	margin-top: 30px;
+}
+
+@media (min-width: 700px) {
+	.contact {
+		display: flex;
+	}
+
+	.contact__title {
+		font-size: 1.5rem;
+		left: 24px;
+	}
+
+	.contact__body {
+		flex: 0.55;
+		padding-top: 110px;
+	}
+
+	.contact__body h2 {
+		font-size: 1.5rem;
+	}
+
+	.contact__columns {
+		display: flex;
+	}
+
+	.contact__firstColumn,
+	.contact__secondColumn {
+		flex: 0.5;
+		width: 10vw;
+		padding: 40px;
+	}
+
+	.contact__socialIcons {
+		width: 12vw;
+	}
+
+	.contact__form {
+		display: flex;
+		flex-direction: column;
+		margin-left: 40px;
+		position: relative;
+		padding-bottom: 40px;
+	}
+
+	.contact__textField {
+		width: 20vw;
+	}
+
+	.textarea {
+		width: 50vw;
+	}
+
+	.contact__button {
+		width: 15vw;
+		position: absolute !important;
+		right: 0;
+		bottom: 0;
+	}
+
+	.contact__map {
+		flex: 0.45;
+		height: 80vw;
+		width: auto;
+		margin: 0;
+	}
+}

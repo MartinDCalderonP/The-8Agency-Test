@@ -1,0 +1,22 @@
+.item__image {
+	height: 100vh;
+	width: 100vw;
+	object-fit: cover;
+}
+
+.item__innerDiv {
+	background-color: white;
+	color: #443d5b;
+	width: 350px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	margin-left: -195px;
+	padding: 10px 20px;
+}
+
+.item__description {
+	font-size: 1.4rem;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: 1px;
+}

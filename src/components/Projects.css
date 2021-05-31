@@ -1,0 +1,25 @@
+.projects {
+	position: relative;
+}
+
+.projects__title {
+	display: inline;
+	padding: 10px 20px 15px;
+	color: #443d5b;
+	background-color: white;
+	position: absolute;
+	top: 70px;
+	left: 16px;
+	z-index: 100;
+}
+
+@media (min-width: 700px) {
+	.projects__title {
+		font-size: 1.5rem;
+		left: 24px;
+	}
+
+	.projects__carousel {
+		width: inherit;
+	}
+}
